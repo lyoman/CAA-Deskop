@@ -1,0 +1,71 @@
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/home.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<nav class="navbar" id="navbar2" style="background-color: inherit; width: 600px;">
+    <div class="container-fluid">			
+        <!--Items -->
+        <div class="collapse navbar-collapse" id="topNavBar">
+            <ul class="nav navbar-nav navbar-right">
+                <div class="dropdown">
+                <button class="dropbtn" style="background-color:inherit;">Welcome  <span id="name"></span></a></button>
+                
+                <span id="icon" class="glyphicon glyphicon-user"  aria-hidden="true"></span>
+
+                </div>
+   
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<script>
+
+    // var listItemCounter = 0;        
+    
+    // //function addItemFunction() {
+    //     var li = document.createElement('li');
+    //     li.id = 'list-Item' + listItemCounter++;
+    //     li.innerHTML = addNewBox.value;
+    
+    //     document.getElementById('contents1').appendChild(li);
+    // //}
+
+    var addItemFunction = function () {
+    var listItemCounter = 0;        
+
+    return function () {
+        var li = document.createElement('li');
+        li.id = 'list-Item' + listItemCounter++;
+        li.innerHTML = addNewBox.value;
+
+        document.getElementById('contents1').appendChild(li);
+    };
+}();
+
+
+    
+</script>
+
+
+<div class="contents1" style="margin-top:50px; margin-left:50px;;">
+    <div class="row" id="contents2" style="padding-top:20px;">
+
+        <ul id="contents1">
+
+        </ul>
+        
+    </div>
+</div>
+
+<script src="js/index.js"></script>
+
+
+<div style="padding-top:203px;">
+
+</div>
+

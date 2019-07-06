@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html ng-app="caa-app">
+
+<head>
+	<title>caa project</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700" rel="stylesheet"> -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- java script links -->
+	<script src="./bower_components/angular/angular.js"></script>
+	<script src="./bower_components/angular-route/angular-route.js"></script>
+
+	<style> 
+			#main {
+				background-image: url("img/DSC_96561.jpg"), url("img/images6.jpg");
+				background-repeat: no-repeat;
+				/*background-size: 1400px 400px;*/
+				/* background-attachment: fixed; */
+				height: 1200px;
+				
+			}
+
+		
+/* 
+			#section2{
+
+				background-image: url("img/images.jpg");
+				background-repeat: no-repeat;
+				background-size: 1400px 400px;
+				background-attachment: fixed;
+				height: 1000px;
+
+			}*/
+
+			hr.new{
+				border: 1px solid #006CB4;
+  				border-radius: 10px;
+			}
+			</style>
+
+
+</head>
+
+<body>
+
+	<div id="main">
+
+<!-- 	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toogle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">CAA Home</a>
+				
+			</div> -->
+			<!-- right content on the nav bar -->
+	<!-- 		<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#!/">Home</a></li>
+					<li><a href="#!/register">Register</a></li>
+					<li><a href="#!/courses">Courses</a></li>
+					
+				</ul>
+				
+			</div>
+			
+		</div>
+		
+	</nav> -->
+
+	<div class="sidebar">
+	  <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> -->
+	  <a href="#!/"><i class="fa fa-fw fa-dashboard">             </i> Dashboard</a><hr class="new">
+	  <a href="#!/courses" id="courses"><i class="fa fa-fw fa-book">           </i> My Courses</a><hr class="new">
+	  <a href="#!/grades" id="courses"><i class="fa fa-fw fa-newspaper-o">     </i> Grades</a><hr class="new">
+	  <a href="#!/library"><i class="fa fa-fw fa-book">    </i> Library</a><hr class="new">
+	  <a href="#!/notifications"><i class="fa fa-fw fa-bell">     </i> Notifications</a><hr class="new">
+	  <a href="#!/clickers"><i class="fa fa-fw fa-book">          </i> Clickers</a><hr class="new">
+	  <a href="#!/livechat"><i class="fa fa-fw fa-comments-o">    </i> Live Chat</a><hr class="new">
+	  <a href="#!/calander"><i class="fa fa-calendar" aria-hidden="true"></i> Calender Events</a><hr class="new">
+	  <a href="#!/myfiles"><i class="fa fa-fw fa-newspaper-o">    </i> My Files</a><hr class="new">
+	  <a href="calander.html"><i class="fa fa-sign-out">            </i> Logout</a><hr class="new">
+<!--<a href="examtable.  "><i class="fa fa-fw fa-hourglass-start"></i> Exam Timetable</a>
+	  <a href="chat.html"><i class="fa fa-fw fa-comments-o">      </i> External Resources</a> -->
+</div>
+
+<div class="main">
+
+	<!-- image logo -->
+	<div style="position: fixed; float:right; margin-left: 950px;background-color:inherit;">
+		<img src="img/logo.png" alt="caa logo" width="150px;" height="100px;" style="background-attachment: fixed;">
+	</div>
+
+	<div class="container-fluid" id="section2"> 
+
+			<nav class="navbar" id="navbar2" style="background-color: #006CB4;">
+					<div class="container-fluid">
+			
+			
+			
+						<!--Header -->
+						<div class="navbar-header">
+			
+						</div>
+			
+						<!--Items -->
+						<div class="collapse navbar-collapse" id="topNavBar">
+							<ul class="nav navbar-nav">
+			
+							   
+							</ul>
+			
+						  
+			
+							<ul class="nav navbar-nav navbar-right">
+
+
+									<div class="dropdown">
+											<button id="navBtn" class="dropbtn">Welcome  <span id="name"></span></button>
+											<!-- <span id="name"></span> -->
+											<span id="icon" class="glyphicon glyphicon-user"  aria-hidden="true"></span>
+					
+									</div>
+			
+							<!-- <div class="dropdown">
+								
+						   <button class="dropbtn">Welcome Name <span id="name"></span> <span class="caret"></span></a></button>
+						   <span id="icon" class="glyphicon glyphicon-user"  aria-hidden="true"></span> -->
+							  <!-- <div class="dropdown-content">
+								<a href="#!/"><i class="fa fa-fw fa-dashboard"></i>Dashboard</a>
+								<hr>
+								<a href="#"><i class="fa fa-fw fa-user">			  </i>Profile</a>
+								<a href="#"><i class="fa fa-fw fa-graduation-cap">    </i>Grades</a>
+								<a href="#!/messages.html"><i class="fa fa-fw fa-envelope"></i>Messages</a>
+						   
+								<a href="#"><i class="fa fa-fw fa-play">			  </i>Logout</a>
+			
+							  </div> -->
+						  <!-- </div>
+						</li> -->
+				   
+								
+							</ul>
+							
+						</div>
+			
+						
+					</div>
+				</nav>
+			
+			
+				<!--Second Navbar-->
+			
+			<nav class="navbar" style="width: 900px;margin-left: 100px;">
+					<div class="container-fluid">
+			
+			
+			
+						<!--Header -->
+						<div class="navbar-header">
+							
+							<a class="navbar-brand" id="f" href="notifications.html" style="color: #006CB4;">
+								<span class="glyphicon glyphicon-bell" aria-hidden="true">
+									Notifications
+								</span>
+							</a>
+			
+						</div>
+			
+						<!--Items -->
+						<div class="collapse navbar-collapse" id="topNavBar">
+							<ul class="nav navbar-nav">
+			
+							 
+							</ul>
+			
+							
+			
+							<ul class="nav navbar-nav navbar-right">
+								<li class="#">
+									<a href="#!/grades" id="courses" style="color: #006CB4;">
+										<span class="glyphicon glyphicon-education" aria-hidden="true"></span>&nbsp; 
+										Grades
+									</a>
+								</li>
+			
+								<li class="#" style="color: #006CB4;">
+									<a href="#!/courses" id="courses" style="color: #006CB4;">
+										<span class="glyphicon glyphicon-book" aria-hidden="true"></span>&nbsp; 
+										Courses
+									</a>
+								</li>
+			
+								<li class="#" style="color: #006CB4;">
+										<a href="#" style="color: #006CB4;">
+											<span class="glyphicon glyphicon-file" aria-hidden="true"></span>&nbsp; 
+											Files
+										</a>
+									</li>
+				   
+								
+							</ul>
+							
+						</div>
+			
+						
+					</div>
+				</nav>
+
+		<!--Links from other html files-->
+		<ng-view></ng-view>
+
+
+
+		<!--Footer-->
+
+    <div id="footer">
+			<nav class="navbar" id="navbar2" style="background-color: #006CB4; height:5px;">
+					<div class="container-fluid">
+			
+			
+			
+						<!--Header -->
+						<div class="navbar-header">
+			
+						</div>
+			
+						<!--Items -->
+						<div class="collapse navbar-collapse" id="topNavBar">
+							<ul class="nav navbar-nav">
+			
+							   
+							</ul>
+			
+						  
+			
+							<ul class="nav navbar-nav navbar-right">
+			
+							<div class="dropdown">
+								
+					
+						   <!-- <span id="icon" class="glyphicon glyphicon-user"  aria-hidden="true"></span> -->
+						  <a href="#"><img class="img img-circle" src="img/ln.png" style="width:25px;height:25px;" alt="fb"></a>
+						  <a href="#"><img class="img img-circle" src="img/app.png" style="width:25px;height:25px;" alt="fb"></a>
+						  <a href="#"><img class="img img-circle" src="img/tw1.png" style="width:25px;height:25px;" alt="fb"></a>
+						  <a href="#"><img class="img img-circle" src="img/ig1.png" style="width:25px;height:25px;" alt="fb"></a>
+						  <a href="https://www.facebook.com/caa.ac.zw/"><img class="img img-circle" src="img/fb.png" style="width:25px;height:25px;" alt="fb"></a>
+						  
+						  </div>
+						</li>
+				   
+								
+							</ul>
+							
+						</div>
+			
+						
+					</div>
+				</nav>
+		</div>
+
+	</div>
+
+	<!-- <img src="img/DSC_9656.jpg" width="1000" height="200" class="img img-responsive"> -->
+
+	<!-- <br><br>
+	<div><h1>Hello Caa</h1></div> -->
+</div>
+
+<script>
+	require('./renderer.js');
+</script>
+
+
+</div>
+
+<!-- bootstrap and jquery -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script type="text/javascript">
+	window.jquery || document.write('<script src="./bower_components/jquery/dist/jquery.js"><\/script>')
+</script>
+
+<script type="text/javascript" src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<!-- page two linking code -->
+	<!-- <script src="pagetwo.js"></script> -->
+
+	<script src="js/index.js"></script>
+
+	
+</body>
+
+</html>

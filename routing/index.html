@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html ng-app="caa-app">
+
+<head>
+	<title>caa project</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- java script links -->
+	<script src="./bower_components/angular/angular.js"></script>
+	<script src="./bower_components/angular-route/angular-route.js"></script>
+</head>
+
+<body>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toogle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">CAA Home</a>
+				
+			</div>
+			<!-- right content on the nav bar -->
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#!/">Home</a></li>
+					<li><a href="#!/register">Register</a></li>
+					<li><a href="#!/courses">Courses</a></li>
+					
+				</ul>
+				
+			</div>
+			
+		</div>
+		
+	</nav>
+
+	<ng-view></ng-view>
+
+	<!-- <br><br>
+	<div><h1>Hello Caa</h1></div> -->
+
+
+<script>
+	require('./renderer.js');
+</script>
+
+<!-- bootstrap and jquery -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script type="text/javascript">
+	window.jquery || document.write('<script src="./bower_components/jquery/dist/jquery.js"><\/script>')
+</script>
+
+<script type="text/javascript" src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<!-- page two linking code -->
+	<!-- <script src="pagetwo.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/home.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./css/calendar.css" media="screen">
+<link rel="stylesheet" href="./css/calendar1.css" media="screen">
+
+
+<!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script> -->
+<!-- <script src="./js/bootstrap.js"></script> -->
+
+
+
+
+
+<div class="row container-fluid" style="padding-top:120px;">
+
+        <h1>Calander</h1>
+        <!-- style="max-height:300px;" -->
+
+    <div class="col-md-9">
+
+
+            <h2 id="key">Calender</h2>
+
+            <label style="font-size: 16px;">Detailed month view for: </label>
+            <select>
+                <option>All Courses</option>
+            </select>
+
+            <button class="btn btn-default" style="float: right;font-weight: bold;">New Event</button>
+
+
+            <div style="margin-left: 50px;" id="calendar"></div>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+            <script src="./js/jquery-ui-datepicker.min.js"></script>
+            <script>
+                $('#calendar').datepicker({
+                    inline: true,
+                    firstDay: 1,
+                    showOtherMonths: true,
+                    dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+                });
+            </script>
+        
+    </div>
+
+    <div class="col-md-3" id="events">
+
+        <h2>Events</h2><hr>
+
+        <div id="key">
+
+            <h3>Event key</h3>
+            <a href="index.html"><i class="fa fa-fw fa-globe"></i> Hide global events</a>
+             <a href="pagetwo.html"><i class="fa fa-fw fa-newspaper-o"></i> Hide category events</a>
+             <a href="index.html"><i class="fa fa-fw fa-book"></i> Hide course events</a>
+             <a href="pagetwo.html"><i class="fa fa-fw fa-group"></i> Hide group events</a>
+             <a href="index.html"><i class="fa fa-fw fa-user"></i> Hide user events</a>
+            
+        </div><hr>
+
+        <div id="key">
+
+            <h3>Monthly View</h3>
+
+
+
+            
+        </div>
+        
+    </div>
+
+</div>
+
+<div style="padding-top:100px;">
+
+</div>

@@ -1,0 +1,135 @@
+body{
+	background-color: #30332e;
+}
+
+body {
+          font-family: "Lato", sans-serif;
+     }
+
+ body {
+      background-image: url("img/DSC_9656.jpg");
+  }
+
+.sidebar {
+  margin-left: 3px;
+  height: 100%;
+  /* width: 248px; */
+  width: 267px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-right: solid #006CB4;
+  opacity: 0.8;
+    filter: alpha(opacity=30);
+}
+
+.sidebar a {
+  /* padding: 6px 8px 6px 16px; */
+  font-size: 25px; 
+  display: block;
+  color: black;
+  
+}
+
+#section2{
+  padding-top:330px;
+}
+
+
+.sidebar i{
+  color: #006CB4;
+}
+
+.sidebar a:hover {
+  color: #EEB111;
+}
+
+.main {
+  margin-left: 245px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  /* padding-top: 60px; */
+  
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 20px;}
+  .sidebar a {font-size: 18px;}
+}
+
+.sidebar1{
+  height: 75px;
+  width: 1210px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  float: left;
+  margin-left: 255px;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+   position: fixed;
+
+}
+
+.sidebar1 a {
+
+  font-size: 17px; 
+
+}
+
+.books p{
+  background-color: #EEB111;
+}
+
+
+.navbar{
+  background-color: #FFFFFF;
+  text-decoration-color: #006CB4;
+  color: #006CB4;
+}
+
+.sidebar1 , a {
+  color: #006CB4;
+
+}
+
+#mainContent{
+ margin-left: 10px;
+ max-height: 345px;
+}
+
+
+#calendar{
+        max-width: 600px;
+        margin: auto;
+            }
+
+thead{
+  font-weight: bold;
+  background-color: grey;
+}
+
+td , th{
+  text-align: center;
+}
+
+th{
+  font-size: 17px;
+}
+
+
+
+#table{
+  /*background-color: #006CB4;*/
+  background-color: lightblue;
+}
+/* 
+
+#navBtn{
+  width: 800px;
+  display: inline;
+  text-underline-position: above;
+} */

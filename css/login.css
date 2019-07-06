@@ -1,0 +1,90 @@
+/* body{
+
+	background-color: #B3B3B3;
+} */
+.form-section{
+	padding-top: 100px;
+}
+img{
+	height: 250px;
+	width: 200px;
+	margin-top: 100px;
+	margin-left: 350px;
+}
+
+* {box-sizing: border-box;}
+
+/* Style the input container */
+.input-container {
+  padding-left: 230px;
+  display: flex;
+  width: 100%;
+  /*margin-bottom: 15px;*/
+}
+
+/* Style the input fields */
+.input-field {
+  width: 50%;
+  outline: none;
+  border: none;
+  background-color:  inherit;
+  color:black;
+}
+
+hr{
+	width: 50%;
+	color: #006CB4;
+	display: block;
+    height: 5px;
+    border: 0;
+    border-top: 1px solid #006CB4;
+   
+}
+h4{
+	margin-left: 400px;
+}
+a:hover{
+	text-decoration: none;
+}
+::placeholder{
+	color: #006CB4;
+}
+
+.input-field:focus {
+  
+}
+
+/* Set a style for the submit button */
+button{
+	width: 100%;
+	margin-left: 230px;
+	background-color:  #006CB4;
+
+}
+.btn{
+	/*opacity: 0.9;*/
+	color: white;
+	background-color:  #006CB4;
+}
+.btn:hover{
+	color: #006CB4;
+}
+
+
+
+
+body{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,a0d8ef+100 */
+background: #feffff; /* Old browsers */
+background: -moz-linear-gradient(top, #feffff 0%, #a0d8ef 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #feffff 0%,#a0d8ef 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #feffff 0%,#a0d8ef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); /* IE6-9 */
+/* height: 100%; */
+height: 700px;
+/* max-height: 100%; */
+/* height: auto; */
+
+}
+
+

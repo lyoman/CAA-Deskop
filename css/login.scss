@@ -1,0 +1,52 @@
+page-login {
+
+    
+
+ 
+   
+
+    .container_all{
+      padding:35px;
+	  background-color:#f5f5f5;
+	  opacity:0.8;
+ 
+  }
+  .landing_text{
+  
+     margin-top:20px;
+	 margin-bottom:20px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.logo{
+
+   padding-top:60px;
+}
+.sign{
+  text-align:center;
+}
+
+ion-content{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#feffff+0,a0d8ef+100 */
+background: #feffff; /* Old browsers */
+background: -moz-linear-gradient(top, #feffff 0%, #a0d8ef 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #feffff 0%,#a0d8ef 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #feffff 0%,#a0d8ef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); /* IE6-9 */
+
+}
+
+.sign_in_text{
+
+   font-family:Verdana, Geneva, sans-serif;
+   color:black;
+   font-size:15px;
+   display: block;
+  
+}
+
+}

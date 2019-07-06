@@ -1,0 +1,25 @@
+.allchats p{
+	/*border: 2px solid grey;*/
+    border-radius: 15px;
+    font-size: 17px;
+    background-color: lightblue;
+    height: 50px;
+}
+
+.allchats1 p{
+	/*border: 2px solid grey;*/
+    border-radius: 15px;
+    font-size: 17px;
+    background-color: lightblue;
+    height: 50px;
+}
+
+/*.allchats{
+border: none;
+    /*border-radius: 5px;*/
+
+
+/*.allchats1{
+border: none;*/
+    /*border-radius: 5px;*/
+/*}*/

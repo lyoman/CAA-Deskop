@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CAA| Login</title>
+	<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="js/login.js"></script>
+	<script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"></script>
+	<style>
+			#container {
+			margin-left: 350px;
+			margin: 20px;
+			width: 400px;
+			height: 8px;
+			}
+	</style>
+</head>
+<body>
+	<!-- <body style="background-color: #B3B3B3;"></body> -->
+	   <!-- <div align="center"> -->
+	   <div class="container">
+		 
+			<div class="logo-section">
+				<img src="img/logo.png" style="width:250px;height:auto;">
+			</div>
+			
+			<p id="tok"></p>
+	   
+	   <div class="form-section">
+		<form method="" action="">
+			<!-- <p id="error" style="color:red; margin-left: 380px;"></p> -->
+			<div class="input-container">
+				
+				 <input required id="userName"  class="input-field" type="text" placeholder="Username" name="Username">
+				 <!-- value="teststudent" -->
+			</div>
+			<hr>
+
+			<div class="input-container">
+				 
+				 <input required id="password"  class="input-field" type="password" placeholder="Password" name="password">
+				 <!-- value="Why%ape12" -->
+			</div><hr>
+
+			<div class="input-field">
+				<button id="login" type="button" class="btn btn-default">Login</button>
+			</div>
+
+			<a href="#"><h4>Forgotten password</h4></a>
+			<div style=" margin-left: 240px;"id="container"></div>
+		</form>	   		
+		
+	   </div>
+	
+	 </div>
+
+	</div>
+
+	<script>
+		var loginBtn = document.getElementById('login')
+
+		loginBtn.addEventListener('click', function(ev){
+			var bar = new ProgressBar.Line(container, {		
+			strokeWidth: 4,
+			easing: 'easeInOut',
+			duration: 1400,
+			color: '#006CB4',
+			trailColor: '#eee',
+			text:'Loading...',
+			trailWidth: 1,
+			svgStyle: {width: '100%', height: '100%'}
+			});
+			bar.animate(1.0);  // Number from 0.0 to 1.0
+		});
+	</script>
+</body>
+</html>
